@@ -1,4 +1,4 @@
-# Select image from dockerhub
+# Select image from dockerhub 
 FROM node:latest
 
 # Set working directory
