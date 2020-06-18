@@ -10,6 +10,9 @@ Setup:
 - run ```npm i && npm start```
 
 ## Docker
-docker pull jerelquay/covid-tracker
+To run locally: ```docker-compose up```
 
-docker run -d -p 3000:3000 --name covid-tracker jerelquay/covid-tracker
+For reference:
+docker run -d -p 3000:3000 --name covid-tracker jerelquay/covid-tracker (issue https://github.com/facebook/create-react-app/issues/8688)
+
+
