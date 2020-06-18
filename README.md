@@ -10,4 +10,5 @@ Setup:
 - run ```npm i && npm start```
 
 ## Docker
-Automated image build by dockerhub using dockerfile
+docker pull jerelquay/covid-tracker
+docker run jerelquay/covid-tracker
