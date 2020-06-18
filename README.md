@@ -11,4 +11,5 @@ Setup:
 
 ## Docker
 docker pull jerelquay/covid-tracker
-docker run jerelquay/covid-tracker
+
+docker run -d -p 3000:3000 --name covid-tracker jerelquay/covid-tracker
